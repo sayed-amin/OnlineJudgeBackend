@@ -2,78 +2,10 @@ const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/Users');
-
+const authenticateJWT = require('../middleware/auth');
 const router = express.Router();
 
-// Register user
-router.post("/register", async (req, res) => {
-    try {
-        const { firstname, lastname, email, password } = req.body;
-        if (!(firstname && lastname && email && password)) {
-            return res.status(400).send("Please enter all the information");
-        }
 
-        const existingUser = await User.findOne({ email });
-        if (existingUser) {
-            return res.status(400).send("User already exists!");
-        }
-
-        const hashedPassword = await bcrypt.hash(password, 10);
-        const user = await User.create({
-            firstname,
-            lastname,
-            email,
-            password: hashedPassword,
-        });
-
-        const token = jwt.sign({ id: user._id, email }, process.env.SECRET_KEY, { expiresIn: "1d" });
-        user.token = token;
-        user.password = undefined;
-
-        res.status(201).json({ message: "You have successfully registered!", user });
-    } catch (error) {
-        console.log(error);
-        res.status(500).send("Error registering user.");
-    }
-});
-
-// Login user
-router.post("/login", async (req, res) => {
-    try {
-        const { email, password } = req.body;
-        if (!(email && password)) {
-            return res.status(400).send("Please enter all the information");
-        }
-
-        const user = await User.findOne({ email });
-        if (!user) {
-            return res.status(401).send("User not found!");
-        }
-
-        const enteredPassword = await bcrypt.compare(password, user.password);
-        if (!enteredPassword) {
-            return res.status(401).send("Password is incorrect");
-        }
-
-        const token = jwt.sign({ id: user._id }, process.env.SECRET_KEY, { expiresIn: "1d" });
-        user.token = token;
-        user.password = undefined;
-
-        const options = {
-            expires: new Date(Date.now() + 1 * 24 * 60 * 60 * 1000),
-            httpOnly: true,
-        };
-
-        res.status(200).cookie("token", token, options).json({
-            message: "You have successfully logged in!",
-            success: true,
-            token,
-        });
-    } catch (error) {
-        console.log(error.message);
-        res.status(500).send("Error logging in.");
-    }
-});
 
 // Get all users (protected)
 router.get("/", authenticateJWT, async (req, res) => {
@@ -136,19 +68,6 @@ router.delete("/:id", authenticateJWT, async (req, res) => {
     }
 });
 
-// Middleware to authenticate JWT
-function authenticateJWT(req, res, next) {
-    const token = req.cookies.token;
-    if (!token) {
-        return res.sendStatus(403);
-    }
-    jwt.verify(token, process.env.SECRET_KEY, (err, user) => {
-        if (err) {
-            return res.sendStatus(403);
-        }
-        req.user = user;
-        next();
-    });
-}
 
-module.exports = { router, authenticateJWT };
+
+module.exports = { router };
