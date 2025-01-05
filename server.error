@@ -164,3 +164,5 @@ bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
   address: '127.0.0.1',
   port: 6379
 } 1/5/2025, 11:59:09 PM
+Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/6/2025, 12:06:42 AM
