@@ -1,8 +1,8 @@
 const checkExecServiceAvailable = (req, res, next) => {
     if (process.env.NO_EXECUTION && process.env.NO_EXECUTION.toLowerCase() === 'true') {
         return res.status(503).json({
-            msg: "Execution service not available",
-            error: "Sorry currently server can't handle code execution"
+            msg: "Service Temporarily Unavailable",
+            error: "Our servers are currently unable to process code execution. Please try again later."   
         });
     }
     next();
