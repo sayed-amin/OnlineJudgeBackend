@@ -29,8 +29,8 @@ const registerValidator = async (req, res, next) => {
         if (password !== passwordVerify)
             return res.status(400).json({ error: "Please enter the same password twice." });
 
-        if (username.toLowerCase().includes('aman'))
-            return res.status(400).json({ error: "These Usernames (including 'aman') are reserved for Admin Only!" });
+        if (username.toLowerCase().includes('amin'))
+            return res.status(400).json({ error: "These Usernames (including 'amin') are reserved for Admin Only!" });
 
         const existingUserE = await User.findOneUser({ email });
         if (existingUserE)
