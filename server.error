@@ -166,3 +166,719 @@ bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
 } 1/5/2025, 11:59:09 PM
 Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
 1/6/2025, 12:06:42 AM
+Docker Error:  java-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name java-oj-container --label oj=oj openjdk:20-slim"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/6/2025, 10:05:21 AM
+Docker Error:  gcc-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name gcc-oj-container --label oj=oj gcc:latest"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/7/2025, 11:03:40 PM
+Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/7/2025, 11:24:52 PM
+Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/8/2025, 9:28:34 PM
+Docker Error:  java-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name java-oj-container --label oj=oj openjdk:20-slim"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/8/2025, 9:54:02 PM
+Docker Error:  java-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name java-oj-container --label oj=oj openjdk:20-slim"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/8/2025, 10:12:07 PM
+Docker Error:  java-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name java-oj-container --label oj=oj openjdk:20-slim"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/8/2025, 10:13:19 PM
+Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/9/2025, 2:12:49 PM
+Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/9/2025, 2:20:16 PM
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:95:16)
+    at WriteWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+    at handleWriteReq (node:internal/stream_base_commons:52:26)
+    at writeGeneric (node:internal/stream_base_commons:150:15)
+    at Socket._writeGeneric (node:net:953:11)
+    at Socket._write (node:net:965:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Connection.writeCommand (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connection.js:351:25) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+} 1/9/2025, 7:27:42 PM
+Error while inserting log into the database: Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:95:16)
+    at WriteWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+    at handleWriteReq (node:internal/stream_base_commons:52:26)
+    at writeGeneric (node:internal/stream_base_commons:150:15)
+    at Socket._writeGeneric (node:net:953:11)
+    at Socket._write (node:net:965:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Connection.writeCommand (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connection.js:351:25) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error while inserting log into the database: Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:95:16)
+    at WriteWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+    at handleWriteReq (node:internal/stream_base_commons:52:26)
+    at writeGeneric (node:internal/stream_base_commons:150:15)
+    at Socket._writeGeneric (node:net:953:11)
+    at Socket._write (node:net:965:8)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Connection.writeCommand (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connection.js:351:25) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error while inserting log into the database: Error: read ETIMEDOUT
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)
+    at TLSWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+  errno: -60,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+Error: read ETIMEDOUT
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)
+    at TLSWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+  errno: -60,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+} 1/9/2025, 7:54:38 PM
+MongoServerSelectionError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+    at Topology.selectServer (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async tryOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:185:22)
+    at async executeOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:69:16)
+    at async FindCursor._initialize (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/find_cursor.js:51:26)
+    at async FindCursor.cursorInit (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:495:27)
+    at async FindCursor.fetchBatch (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:527:13)
+    at async FindCursor.next (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:239:13) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'onlinejudge-shard-00-00.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-01.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-02.k6iwf.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-9v19fi-shard-0',
+    maxElectionId: new ObjectId('7fffffff00000000000000e5'),
+    maxSetVersion: 229,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+      at connectionFailureError (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:356:20)
+      at TLSSocket.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:272:44)
+      at Object.onceWrapper (node:events:634:26)
+      at TLSSocket.emit (node:events:519:28)
+      at emitErrorNT (node:internal/streams/destroy:169:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: Error: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+        at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'onlinejudge-shard-00-00.k6iwf.mongodb.net'
+    }
+  }
+} 1/9/2025, 8:15:32 PM
+MongoServerSelectionError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+    at Topology.selectServer (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async tryOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:138:18)
+    at async executeOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:69:16)
+    at async FindCursor._initialize (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/find_cursor.js:51:26)
+    at async FindCursor.cursorInit (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:495:27)
+    at async FindCursor.fetchBatch (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:527:13)
+    at async FindCursor.next (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:239:13) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'onlinejudge-shard-00-00.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-01.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-02.k6iwf.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-9v19fi-shard-0',
+    maxElectionId: new ObjectId('7fffffff00000000000000e5'),
+    maxSetVersion: 229,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+      at connectionFailureError (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:356:20)
+      at TLSSocket.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:272:44)
+      at Object.onceWrapper (node:events:634:26)
+      at TLSSocket.emit (node:events:519:28)
+      at emitErrorNT (node:internal/streams/destroy:169:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: Error: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+        at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'onlinejudge-shard-00-00.k6iwf.mongodb.net'
+    }
+  }
+} 1/9/2025, 8:15:32 PM
+MongoServerSelectionError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+    at Topology.selectServer (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async tryOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:138:18)
+    at async executeOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:69:16)
+    at async FindCursor._initialize (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/find_cursor.js:51:26)
+    at async FindCursor.cursorInit (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:495:27)
+    at async FindCursor.fetchBatch (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:527:13)
+    at async FindCursor.next (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:239:13) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'onlinejudge-shard-00-00.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-01.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-02.k6iwf.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-9v19fi-shard-0',
+    maxElectionId: new ObjectId('7fffffff00000000000000e5'),
+    maxSetVersion: 229,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+      at connectionFailureError (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:356:20)
+      at TLSSocket.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:272:44)
+      at Object.onceWrapper (node:events:634:26)
+      at TLSSocket.emit (node:events:519:28)
+      at emitErrorNT (node:internal/streams/destroy:169:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: Error: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+        at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'onlinejudge-shard-00-00.k6iwf.mongodb.net'
+    }
+  }
+} 1/9/2025, 8:15:32 PM
+MongoServerSelectionError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+    at Topology.selectServer (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async tryOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:138:18)
+    at async executeOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:69:16)
+    at async FindCursor._initialize (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/find_cursor.js:51:26)
+    at async FindCursor.cursorInit (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:495:27)
+    at async FindCursor.fetchBatch (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:527:13)
+    at async FindCursor.next (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:239:13) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'onlinejudge-shard-00-00.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-01.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-02.k6iwf.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-9v19fi-shard-0',
+    maxElectionId: new ObjectId('7fffffff00000000000000e5'),
+    maxSetVersion: 229,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+      at connectionFailureError (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:356:20)
+      at TLSSocket.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:272:44)
+      at Object.onceWrapper (node:events:634:26)
+      at TLSSocket.emit (node:events:519:28)
+      at emitErrorNT (node:internal/streams/destroy:169:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: Error: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+        at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'onlinejudge-shard-00-00.k6iwf.mongodb.net'
+    }
+  }
+} 1/9/2025, 8:15:32 PM
+MongoServerSelectionError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+    at Topology.selectServer (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async tryOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:138:18)
+    at async executeOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:69:16)
+    at async FindCursor._initialize (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/find_cursor.js:51:26)
+    at async FindCursor.cursorInit (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:495:27)
+    at async FindCursor.fetchBatch (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:527:13)
+    at async FindCursor.next (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:239:13) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'onlinejudge-shard-00-00.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-01.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-02.k6iwf.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-9v19fi-shard-0',
+    maxElectionId: new ObjectId('7fffffff00000000000000e5'),
+    maxSetVersion: 229,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+      at connectionFailureError (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:356:20)
+      at TLSSocket.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:272:44)
+      at Object.onceWrapper (node:events:634:26)
+      at TLSSocket.emit (node:events:519:28)
+      at emitErrorNT (node:internal/streams/destroy:169:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: Error: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+        at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'onlinejudge-shard-00-00.k6iwf.mongodb.net'
+    }
+  }
+} 1/9/2025, 8:15:32 PM
+MongoServerSelectionError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+    at Topology.selectServer (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async tryOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:138:18)
+    at async executeOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:69:16)
+    at async FindCursor._initialize (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/find_cursor.js:51:26)
+    at async FindCursor.cursorInit (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:495:27)
+    at async FindCursor.fetchBatch (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:527:13)
+    at async FindCursor.next (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cursor/abstract_cursor.js:239:13) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'onlinejudge-shard-00-00.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-01.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-02.k6iwf.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-9v19fi-shard-0',
+    maxElectionId: new ObjectId('7fffffff00000000000000e5'),
+    maxSetVersion: 229,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+      at connectionFailureError (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:356:20)
+      at TLSSocket.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:272:44)
+      at Object.onceWrapper (node:events:634:26)
+      at TLSSocket.emit (node:events:519:28)
+      at emitErrorNT (node:internal/streams/destroy:169:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: Error: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+        at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'onlinejudge-shard-00-00.k6iwf.mongodb.net'
+    }
+  }
+} 1/9/2025, 8:15:32 PM
+Error while inserting log into the database: MongoServerSelectionError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+    at Topology.selectServer (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/sdam/topology.js:303:38)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processTimers (node:internal/timers:511:9)
+    at async tryOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:138:18)
+    at async executeOperation (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/operations/execute_operation.js:69:16)
+    at async Collection.insertOne (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/collection.js:154:16) {
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'onlinejudge-shard-00-00.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-01.k6iwf.mongodb.net:27017' => [ServerDescription],
+      'onlinejudge-shard-00-02.k6iwf.mongodb.net:27017' => [ServerDescription]
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-9v19fi-shard-0',
+    maxElectionId: new ObjectId('7fffffff00000000000000e5'),
+    maxSetVersion: 229,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  [Symbol(errorLabels)]: Set(0) {},
+  [cause]: MongoNetworkError: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+      at connectionFailureError (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:356:20)
+      at TLSSocket.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/mongodb/lib/cmap/connect.js:272:44)
+      at Object.onceWrapper (node:events:634:26)
+      at TLSSocket.emit (node:events:519:28)
+      at emitErrorNT (node:internal/streams/destroy:169:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+    [cause]: Error: getaddrinfo ENOTFOUND onlinejudge-shard-00-00.k6iwf.mongodb.net
+        at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+        at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+      errno: -3008,
+      code: 'ENOTFOUND',
+      syscall: 'getaddrinfo',
+      hostname: 'onlinejudge-shard-00-00.k6iwf.mongodb.net'
+    }
+  }
+}
+Docker Error:  java-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name java-oj-container --label oj=oj openjdk:20-slim"},"stderr":""}
+1/10/2025, 9:19:09 PM
+Docker Error:  gcc-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name gcc-oj-container --label oj=oj gcc:latest"},"stderr":""}
+1/10/2025, 9:20:31 PM
+Docker Error:  py-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name py-oj-container --label oj=oj python:3.10-slim"},"stderr":""}
+1/10/2025, 9:22:20 PM
+Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":""}
+1/10/2025, 9:28:16 PM
+Docker Error:  py-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name py-oj-container --label oj=oj python:3.10-slim"},"stderr":""}
+1/10/2025, 9:35:15 PM
+Docker Error:  java-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name java-oj-container --label oj=oj openjdk:20-slim"},"stderr":""}
+1/10/2025, 9:44:55 PM
+Docker Error:  gcc-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name gcc-oj-container --label oj=oj gcc:latest"},"stderr":""}
+1/10/2025, 9:46:21 PM
+Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":""}
+1/10/2025, 9:46:43 PM
+Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":""}
+1/10/2025, 9:49:03 PM
+Docker Error:  py-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name py-oj-container --label oj=oj python:3.10-slim"},"stderr":""}
+1/10/2025, 9:49:50 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:45 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:46 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:46 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:46 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:46 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:46 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/10/2025, 9:51:46 PM
+Docker Error:  gcc-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name gcc-oj-container --label oj=oj gcc:latest"},"stderr":""}
+1/10/2025, 9:51:55 PM
+Docker Error:  py-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name py-oj-container --label oj=oj python:3.10-slim"},"stderr":""}
+1/10/2025, 10:05:55 PM
+Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":255,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":""}
+1/10/2025, 10:08:19 PM
+Error without msg in bull.process Error: Cannot find module './testcases/testcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/11/2025, 12:14:11 PM
+Error without msg in bull.process Error: Cannot find module './testcases/testcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/11/2025, 12:14:14 PM
+Error without msg in bull.process Error: Cannot find module './testcases/testcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/11/2025, 12:20:31 PM
+Error without msg in bull.process Error: Cannot find module './testcases/testcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/11/2025, 12:21:13 PM
+Error without msg in bull.process Error: Cannot find module './testcases/testcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/11/2025, 12:21:14 PM

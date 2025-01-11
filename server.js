@@ -21,7 +21,7 @@ const hpp = require('hpp');
 const rateLimit = require("express-rate-limit");
 const { connectDB } = require('./DataBase/connectDB');
 const { Socket } = require('./socketHandler');
-
+const questions = require('./routes/questions'); 
 const codeExecutorDir = `./CodeExecuter/codeExecutor${(process.env.NO_DOCKER ? "_nodockerv" : "_dockerv")}`;
 const { initAllDockerContainers } = require(codeExecutorDir);
 
@@ -60,7 +60,8 @@ app.use('/api/notes', notes);
 // api route for user login and register
 app.use('/api/user', user);
 
-
+// api to add questions
+app.use('/api/questions', questions);
 
 // Serve Static Assets In Production
 // if (process.env.NODE_ENV === "production") {
