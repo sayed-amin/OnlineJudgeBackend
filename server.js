@@ -1,114 +1,79 @@
-const express = require("express");
-const cors = require("cors");
-const dotenv = require("dotenv");
-const bcrypt = require("bcryptjs");
-const { DBConnection } = require("./config/db.js");
-const User = require("./models/Users.js");
-const jwt = require("jsonwebtoken");
-const cookieParser = require("cookie-parser");
+const { dateTimeNowFormated, logger } = require('./utils/logging');
 
-dotenv.config();
+// If not in production
+if (process.env.NODE_ENV !== "production" || process.env.CONTAINERIZED === "true") {
+    require('dotenv').config(); // .env file variables -> process.env
+}
+logger.log(`In ${process.env.NODE_ENV} env !`);
 
+const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 8080;
+const cors = require('cors');
+const cookieParser = require("cookie-parser");
+const explore = require('./routes/explore');
+const user = require('./routes/user');
+const notes = require('./routes/notes');
+const path = require('path');
+const http = require('http');
+const experimental = require('./routes/experimental');
+const mongoSanitize = require("express-mongo-sanitize");
+const helmet = require("helmet");
+const hpp = require('hpp');
+const rateLimit = require("express-rate-limit");
+const { connectDB } = require('./DataBase/connectDB');
+const { Socket } = require('./socketHandler');
+const questions = require('./routes/questions'); 
+const codeExecutorDir = `./CodeExecuter/codeExecutor${(process.env.NO_DOCKER ? "_nodockerv" : "_dockerv")}`;
+const { initAllDockerContainers } = require(codeExecutorDir);
 
-app.use(cors());
+// Establish Connection to Database
+connectDB();
+// Initiate All Docker Containers
+initAllDockerContainers();
+
+// parse json request body
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
+app.use(express.urlencoded({ extended: true }));
 
-DBConnection();
+// Security
+app.use(cors({ origin: true, credentials: true }));
+app.use(mongoSanitize());
+app.use(hpp());
+app.use(helmet());
+app.use(rateLimit({
+    windowMs: 10 * 60 * 1000, // 10 Minutes
+    max: 500
+}));
 
-app.get("/", (req, res) => {
-    res.send("Hello, world!");
-});
+// creating a http server
+const server = http.createServer(app);
+// setup socket connection
+Socket.registerSocketServer(server);
 
-app.post("/register", async (req, res) => {
-    try {
-        //get all the data from body
-        const { firstname, lastname, email, password } = req.body;
 
-        // check that all the data should exists
-        if (!(firstname && lastname && email && password)) {
-            return res.status(400).send("Please enter all the information");
-        }
+// api route to get questions and verdicts
+app.use('/api/explore', explore);
 
-        // check if user already exists
-        const existingUser = await User.findOne({ email });
-        if (existingUser) {
-            return res.status(200).send("User already exists!");
-        }
+// api route to get and post notes
+app.use('/api/notes', notes);
 
-        // encrypt the password
-        const hashedPassword = await bcrypt.hash(password, 10);
+// api route for user login and register
+app.use('/api/user', user);
 
-        // save the user in DB
-        const user = await User.create({
-            firstname,
-            lastname,
-            email,
-            password: hashedPassword,
-        });
 
-        // generate a token for user and send it
-        const token = jwt.sign({ id: user._id, email }, process.env.SECRET_KEY, {
-            expiresIn: "1d",
-        });
-        user.token = token;
-        user.password = undefined;
-        res
-            .status(200)
-            .json({ message: "You have successfully registered!", user });
-    } catch (error) {
-        console.log(error);
-    }
-});
+// experimental routes
+app.use('/api/experimental', experimental);
+// Serve Static Assets In Production
+// if (process.env.NODE_ENV === "production") {
+// Set Static Folder
+app.use(express.static(path.join(__dirname, 'client/build')));
+app.get('*', (req, res) =>
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+);
+// }
 
-app.post("/login", async (req, res) => {
-    try {
-        //get all the user data
-        const { email, password } = req.body;
-
-        // check that all the data should exists
-        if (!(email && password)) {
-            return res.status(400).send("Please enter all the information");
-        }
-
-        //find the user in the database
-        const user = await User.findOne({ email });
-        if (!user) {
-            return res.status(401).send("User not found!");
-        }
-
-        //match the password
-        const enteredPassword = await bcrypt.compare(password, user.password);
-        if (!enteredPassword) {
-            return res.status(401).send("Password is incorrect");
-        }
-
-        const token = jwt.sign({ id: user._id }, process.env.SECRET_KEY, {
-            expiresIn: "1d",
-        });
-        user.token = token;
-        user.password = undefined;
-
-        //store cookies
-        const options = {
-            expires: new Date(Date.now() + 1 * 24 * 60 * 60 * 1000),
-            httpOnly: true, //only manipulate by server not by client/user
-        };
-
-        //send the token
-        res.status(200).cookie("token", token, options).json({
-            message: "You have successfully logged in!",
-            success: true,
-            token,
-        });
-    } catch (error) {
-        console.log(error.message);
-    }
-});
-
-app.listen(PORT, () => {
-    console.log(`Server listening on port ${PORT}`);
+const port = process.env.PORT || 8080;
+server.listen(port, () => {
+    logger.log(`Server running on PORT ${port}`, dateTimeNowFormated());
 });
