@@ -12,15 +12,15 @@
 
 ### 1. **Client Side (React: Vite)**
 
-   - Navigate to the `client` directory:
+   - Navigate to the `OnlineJudgeFrontend` directory:
      ```bash
-     cd client
+     cd OnlineJudgeFrontend
      ```
    - Install all dependencies:
      ```bash
      npm install
      ```
-   - Start the client (React app) on **PORT 5137**:
+   - Start the OnlineJudgeBackend (React app) on **PORT 5137**:
      ```bash
      npm start
      ```
@@ -28,9 +28,9 @@
 
 ### 2. **Server Side (Node.js with Docker and Redis)**
 
-   - Navigate to the `server` directory:
+   - Navigate to the `OnlineJudgeFrontend` directory:
      ```bash
-     cd server
+     cd OnlineJudgeFrontend
      ```
    - Install all dependencies:
      ```bash
