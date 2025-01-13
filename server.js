@@ -15,6 +15,7 @@ const user = require('./routes/user');
 const notes = require('./routes/notes');
 const path = require('path');
 const http = require('http');
+const experimental = require('./routes/experimental');
 const mongoSanitize = require("express-mongo-sanitize");
 const helmet = require("helmet");
 const hpp = require('hpp');
@@ -60,9 +61,9 @@ app.use('/api/notes', notes);
 // api route for user login and register
 app.use('/api/user', user);
 
-// api to add questions
-app.use('/api/questions', questions);
 
+// experimental routes
+app.use('/api/experimental', experimental);
 // Serve Static Assets In Production
 // if (process.env.NODE_ENV === "production") {
 // Set Static Folder
