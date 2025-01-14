@@ -882,3 +882,114 @@ Require stack:
     '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
   ]
 } 1/11/2025, 12:21:14 PM
+Error without msg in bull.process Error: Cannot find module './testcases/TwoSumTestcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/13/2025, 9:34:59 PM
+Error without msg in bull.process Error: Cannot find module './testcases/TwoSumTestcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/13/2025, 9:35:02 PM
+bull/redis error TypeError: Cannot read properties of null (reading 'data')
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:93:45)
+    at Queue.emit (node:events:519:28)
+    at module.exports.emitSafe (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/utils.js:50:20)
+    at /Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1057:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0) 1/14/2025, 4:40:44 AM
+Error without msg in bull.process Error: Cannot find module './testcases/sfd'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/14/2025, 6:56:24 AM
+Error without msg in bull.process Error: Cannot find module './testcases/sfd'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/14/2025, 6:56:31 AM

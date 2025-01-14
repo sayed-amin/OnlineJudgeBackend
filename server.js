@@ -61,6 +61,8 @@ app.use('/api/notes', notes);
 // api route for user login and register
 app.use('/api/user', user);
 
+// api to add questions
+app.use('/api/questions', questions);
 
 // experimental routes
 app.use('/api/experimental', experimental);
