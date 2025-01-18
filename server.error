@@ -993,3 +993,479 @@ Require stack:
     '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
   ]
 } 1/14/2025, 6:56:31 AM
+Docker Error:  gcc-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name gcc-oj-container --label oj=oj gcc:latest"},"stderr":"docker: Cannot connect to the Docker daemon at unix:///Users/amin/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.\n"}
+1/15/2025, 3:54:23 PM
+Error without msg in bull.process Error: Cannot find module './testcases/BinarySearchTestcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/15/2025, 6:12:45 PM
+Error without msg in bull.process Error: Cannot find module './testcases/BinarySearchTestcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/15/2025, 6:12:49 PM
+Error without msg in bull.process Error: Cannot find module './testcases/BinarySearchTestcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/15/2025, 6:13:01 PM
+Docker Error:  py-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name py-oj-container --label oj=oj python:3.10-slim"},"stderr":"docker: Error response from daemon: Conflict. The container name \"/py-oj-container\" is already in use by container \"ef7f0d3750ad1e40cbbc9cd9a4cea4679cbd80dd685953f6a349656007887482\". You have to remove (or rename) that container to be able to reuse that name.\nSee 'docker run --help'.\n"}
+1/16/2025, 12:06:01 AM
+Error without msg in bull.process ReferenceError: problem is not defined
+    at Object.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/testcases/HierarchyTestcase.js:17:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48) 1/16/2025, 12:25:15 AM
+Docker Error:  gcc-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name gcc-oj-container --label oj=oj gcc:latest"},"stderr":"docker: Error response from daemon: Conflict. The container name \"/gcc-oj-container\" is already in use by container \"cc1985fa4e246bdf9bc2afb5e4ced5da55ae5a0d77546b9dd5edeab78d0b2625\". You have to remove (or rename) that container to be able to reuse that name.\nSee 'docker run --help'.\n"}
+1/16/2025, 12:38:11 AM
+Error without msg in bull.process Error: Cannot find module './testcases/LCS2Testcase'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/16/2025, 12:53:25 AM
+Docker Error:  js-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name js-oj-container --label oj=oj node:16.17.0-bullseye-slim"},"stderr":"docker: Error response from daemon: Conflict. The container name \"/js-oj-container\" is already in use by container \"99fe331853504333be6dfc15f4dbb3aeb6a1670f9afa004a0a048e2b62958c0f\". You have to remove (or rename) that container to be able to reuse that name.\nSee 'docker run --help'.\n"}
+1/16/2025, 11:25:05 PM
+Docker Error:  gcc-oj-container Docker Error : {"msg":"on docker error","error":{"code":125,"killed":false,"signal":null,"cmd":"docker run -i -d --rm --mount type=bind,src=\"/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeFiles\",dst=/codeFiles --name gcc-oj-container --label oj=oj gcc:latest"},"stderr":"docker: Error response from daemon: Conflict. The container name \"/gcc-oj-container\" is already in use by container \"579ff94d9853fa860bfb5dbd3af69110aa97b40ca67647c348ad7ddbcd8f5742\". You have to remove (or rename) that container to be able to reuse that name.\nSee 'docker run --help'.\n"}
+1/16/2025, 11:38:16 PM
+Error without msg in bull.process Error: Cannot find module './testcases/broalgouniversity
+bestmentors'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/17/2025, 11:02:26 AM
+Error without msg in bull.process Error: Cannot find module './testcases/broalgouniversity
+bestmentors'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/17/2025, 11:02:45 AM
+Error without msg in bull.process Error: Cannot find module './testcases/'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/17/2025, 11:02:16 PM
+Error without msg in bull.process Error: Cannot find module './testcases/'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/17/2025, 11:04:51 PM
+Error without msg in bull.process Error: Cannot find module './testcases/'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/17/2025, 11:05:02 PM
+Error without msg in bull.process Error: Cannot find module './testcases/4
+0 0 0 1'
+Require stack:
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js
+- /Users/amin/Documents/Algo University/Online Judge/Backend/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at execCodeAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js:94:31)
+    at processAgainstTestcases (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:32:26)
+    at Queue.<anonymous> (/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js:52:48)
+    at handlers.<computed> (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:733:42)
+    at Queue.processJob (/Users/amin/Documents/Algo University/Online Judge/Backend/node_modules/bull/lib/queue.js:1210:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/codeExecutor_dockerv.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/CodeExecuter/queryQueue.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/controllers/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/routes/explore.js',
+    '/Users/amin/Documents/Algo University/Online Judge/Backend/server.js'
+  ]
+} 1/17/2025, 11:05:04 PM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:16 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:18 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:18 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:18 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:20 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:20 AM
+bull/redis error Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+} 1/18/2025, 7:36:20 AM

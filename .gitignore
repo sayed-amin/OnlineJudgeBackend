@@ -21,3 +21,7 @@ coverage/
 
 # System-specific files
 Thumbs.db
+start.sh
+
+Dockerfile
+CodeExecuter/testcases/

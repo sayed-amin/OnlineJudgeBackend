@@ -101,37 +101,45 @@ const execute = (containerId, filename, input, language, onProgress = null) => {
     const command = details[language].executorCmd ? details[language].executorCmd(filename) : null;
     return new Promise((resolve, reject) => {
         if (!command) return reject('Language Not Supported');
-        const cmd = spawn('docker', ['exec', '-i', `${containerId} ${command}`], { shell: true });
+
+        // Spawn the docker execution command
+        const cmd = spawn('docker', ['exec', '-i', `${containerId}`, command], { shell: true });
 
         let stdout = '';
         let stderr = '';
+        let timedOut = false; // Flag to track timeout status
 
         if (input) {
             cmd.stdin.write(input);
             cmd.stdin.end();
         }
 
-        cmd.stdin.on('error', err => {
-            reject({ msg: 'on stdin error', error: `${err}` });
-        });
+        cmd.stdin.on('error', err => reject({ msg: 'on stdin error', error: `${err}` }));
 
         cmd.stdout.on('data', (data) => {
             stdout += `${data}`;
-            if (onProgress) {
-                onProgress(`${data}`, STDOUT, cmd.pid);
-            }
+            if (onProgress) onProgress(`${data}`, STDOUT, cmd.pid);
         });
 
         cmd.stderr.on('data', (data) => {
             stderr += `${data}`;
-            if (onProgress) {
-                onProgress(`${data}`, STDERR, cmd.pid);
-            }
+            if (onProgress) onProgress(`${data}`, STDERR, cmd.pid);
         });
 
         cmd.on('error', (error) => reject(error));
 
+        // Set a timeout of 8 seconds
+        const timeout = setTimeout(() => {
+            timedOut = true;
+            cmd.kill('SIGKILL'); // Forcefully kill the process
+            reject({ msg: 'Time Limit Exceeded (TLE)', error: 'Execution time exceeded 8 seconds' });
+        }, 8000);
+
         cmd.on('close', (code) => {
+            clearTimeout(timeout); // Clear the timeout if execution completes in time
+
+            if (timedOut) return; // If already timed out, don't proceed further
+
             if (code !== 0) {
                 reject(`${stderr}`);
             } else {
@@ -139,7 +147,8 @@ const execute = (containerId, filename, input, language, onProgress = null) => {
             }
         });
     });
-}
+};
+
 
 
 module.exports = {

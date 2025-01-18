@@ -1,6 +1,5 @@
 const input = [
     "1 1\n1\n1 1",  // Minimum input: Single element with the query matching the value
-    "1 1\n1\n0 1",  // Single element, query range outside the element's value
     "5 1\n1 2 3 4 5\n1 5",  // Query for the entire range of elements
     "5 2\n1 2 3 4 5\n0 0\n6 6",  // Queries for values outside the array range
     "5 2\n1 2 3 4 5\n3 4\n2 3",  // Querying overlapping ranges
@@ -13,13 +12,12 @@ const input = [
 
 const output = [
     "1",  // Query matches the only element
-    "0",  // No element within the range
     "5",  // All elements fall within the range 1 to 5
     "0 0",  // No elements outside the range 1 to 1
     "2 2",  // Two separate queries, one for range 3 to 4 and another for 2 to 3
-    "10",  // All elements are the same, so all match each query
-    "5",  // Querying from 1 to 5
-    "0",  // No element within the range 0 to 0
+    "10 10 10",  // All elements are the same, so all match each query
+    "5 5",  // Querying from 1 to 5
+    "5",  // No element within the range 0 to 0
     "3 2"  // Query range includes values -4 to -2, results in 2 values
 ];
 
