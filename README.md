@@ -3,6 +3,12 @@
 ## Description
 **Online-Judge** is a platform that securely runs and compiles user-submitted code for programming problems. It judges whether the code is correct or incorrect, allowing users to track their submissions through a leaderboard and submission history.
 
+## 🌍 Live Demo
+Check out the live version of my portfolio:
+👉 **[Live Demo](https://onlinejudge.sayedamin.in/)**
+
+![Online Judge Preview](public/onlinejudge.png)
+
 ### Features:
 - **Secure Code Execution**: Runs and compiles code using Docker and Sandboxing techniques to ensure a safe environment.
 - **Handles Multiple Requests**: Utilizes Polling and Queue systems to manage multiple user requests efficiently.
